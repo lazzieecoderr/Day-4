@@ -1,0 +1,36 @@
+contents
+1.Xmlhttprequest
+2.Functions
+3.Function Types
+4.Return 
+
+Xmlhttprequest:-
+=> step 1:- create a XHR object
+XHR => Xmlhttprequest
+syntax to create xhr object
+var/let/const variablename = new XMLHttpRequest();
+variablename = userdefined(proper name)
+new = new is a keyword used to create a object.
+
+=> STEP 2:- Openning a connection to server
+3 parameters are there to open a connection to server
+1. HTTP Methods(GET,POST,PUT,DELETE)
+2. URL (from where to get data)
+3. True/false (Optional)
+syntax:- 
+ variablename.open("httmethods","url",boolean)
+
+=> Step 3:- Initiating a bridge to server / sending request  
+synatx:- 
+variablename.send();
+send:- It is a method used to send the request.
+
+=> Step 4:- server response
+// event ,function ,response
+// onload :- It is an event.
+//function (annoymous function)
+syntax:- 
+function (){
+
+}
+//response
