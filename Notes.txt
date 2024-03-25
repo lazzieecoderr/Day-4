@@ -34,3 +34,18 @@ function (){
 
 }
 //response
+------------------------------------------------------------------------
+Functions:- set of statements that performs specific task
+
+syntax:- 
+function functionname(parameters){
+    //set of statements
+   
+}
+funtionname()
+
+//function always have a Return
+//return
+to reduce the number of time code gets executed
+//functionname userdefined(proper name)
+//one function has only one return 
